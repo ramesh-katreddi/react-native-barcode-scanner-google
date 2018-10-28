@@ -55,7 +55,7 @@ public class BarcodeScannerManager extends SimpleViewManager<BarcodeScannerView>
 
     // Torch modes
     // Possible values: 0 = flash off, 1 = Torch
-    @ReactProp(name="torchMode", defaultInt = 0)
+    @ReactProp(name="torchMode", defaultInt = 1)
     public void setTorchMode(BarcodeScannerView view, int torchMode) {
         view.setTorchMode(torchMode);
     }
