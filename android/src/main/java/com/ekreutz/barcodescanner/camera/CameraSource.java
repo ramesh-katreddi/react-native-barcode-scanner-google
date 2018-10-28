@@ -139,7 +139,7 @@ public class CameraSource {
     private int mRequestedPreviewHeight = 768;
 
 
-    private String mFocusMode = null;
+    private String mFocusMode = "torch";
     private String mFlashMode = null;
     private int mCameraId = -1;
 
